@@ -1,0 +1,282 @@
+# Java Fundamentals – Question & Answer Notes
+
+1. What is a Programming Language?
+
+A programming language is a formal language used to give instructions to a computer to perform specific tasks.
+
+What are the main types of programming languages?
+
+1. Low-Level Language
+
+    Low-level languages are close to **machine hardware**.
+
+    Characteristics:
+
+    * Difficult to understand
+    * Faster execution
+    * Hardware dependent
+
+    Examples:
+
+    * Machine Language (0s and 1s)
+    * Assembly Language
+
+2. High-Level Language:
+    High-level languages are easy for humans to **read, write, and understand**.
+
+    Characteristics:
+
+    * User-friendly syntax
+    * Platform independent (mostly)
+    * Slightly slower than low-level languages
+
+    Examples:
+
+    * Java
+    * Python
+    * C++
+
+3. Procedural Language
+
+    Procedural languages follow a "step-by-step procedure" to solve problems.
+
+    Characteristics:
+
+    * Focus on functions/procedures
+    * Code executed sequentially
+    * Less security
+
+    Examples:
+
+    * C
+    * Pascal
+
+4. Object-Oriented Language
+
+    Object-oriented languages organize code using "objects and classes".
+
+    Key concepts:
+
+    * Class
+    * Object
+    * Inheritance
+    * Polymorphism
+    * Encapsulation
+    * Abstraction
+
+    Advantages:
+
+    * Code reusability
+    * Better security
+    * Easy maintenance
+
+    Examples:
+
+    * Java
+    * C++
+    * Python
+
+5. Scripting Language
+
+    Scripting languages are mainly used for "automation and web development".
+
+    Characteristics:
+
+    * Interpreted
+    * No compilation needed
+    * Faster development
+
+    Examples:
+
+    * Python
+    * JavaScript
+    * Bash
+
+2. What is a Static Typed Language?
+
+    A static typed language is one in which data types are checked at **compile time**.
+
+    Example: Java, C, C++
+
+    ```java
+    int a = 10;
+    ```
+
+    Advantages:
+
+    * Better performance
+    * Early error detection
+
+3. What is a Dynamic Typed Language?
+
+    A dynamic typed language is one in which data types are checked at "runtime".
+
+    Example: Python, JavaScript
+
+    ```python
+    a = 10
+    ```
+
+    Advantages:
+
+    * Easy to write
+    * Flexible coding
+
+4. What is Java?
+
+Java is a "high-level, object-oriented, platform-independent" programming language.
+
+5. What are the features of Java?
+
+    * Platform Independent (Write Once, Run Anywhere)
+    * Object Oriented
+    * Secure
+    * Robust
+    * Multithreaded
+    * Portable
+    * High Performance
+    * Automatic Garbage Collection
+
+6. What is a Compiler?
+
+    A "compiler" converts source code into bytecode.
+
+    ```
+    .java → .class
+    ```
+
+    * Java compiler is "javac"
+    * Checks syntax errors
+    * Executes once
+
+7. What is an Interpreter?
+
+    An "interpreter" executes code line by line.
+
+    In Java:
+
+    * JVM interprets bytecode
+    * Helps in debugging
+
+8. What is JVM?
+
+    JVM (Java Virtual Machine) is a virtual machine that executes Java bytecode and provides platform independence.
+
+    Main functions of JVM:
+
+    * Loads class files
+    * Verifies bytecode
+    * Executes program
+    * Manages memory
+
+    Components:
+
+    * Class Loader
+    * Execution Engine
+    * Runtime Data Areas
+    * Garbage Collector
+
+9. What is JRE?
+
+    JRE (Java Runtime Environment) provides the environment required to "run Java programs".
+
+    Includes:
+
+    * JVM
+    * Java libraries
+
+    ❌ Cannot compile Java programs
+
+10. What is JDK?
+
+    JDK (Java Development Kit) is used to **develop and run Java programs**.
+
+    Includes:
+
+    * JRE
+    * Compiler (javac)
+    * Debugger
+    * Development tools
+
+    Relationship between JDK, JRE, JVM:
+
+    ```
+    JDK → JRE → JVM
+    ```
+
+11. What is JIT?
+
+    JIT (Just-In-Time Compiler) is part of JVM that converts bytecode into native machine code at runtime to improve performance.
+
+12. What is Stack Memory?
+
+    Stack memory stores:
+
+    * Method calls
+    * Local variables
+
+    Characteristics:
+
+    * Faster
+    * Follows LIFO order
+    * Memory released automatically
+
+13. What is Heap Memory?
+
+    Heap memory stores:
+
+    * Objects
+
+    Characteristics:
+    * Slower than stack
+    * Shared among threads
+    * Managed by Garbage Collector
+
+14. What is Garbage Collector?
+
+    Garbage Collector automatically removes unused objects from heap memory and prevents memory leaks.
+
+    Example:
+
+    ```java
+    obj = null;
+    ```
+
+15. What are Primitive Data Types in Java?
+
+    Primitive data types are basic data types that store simple values directly in memory.
+
+    Types, Size, and Range:
+
+    | Data Type | Size              | Description                   |
+    | --------- | ----------------- | ----------------------------- |
+    | byte      | 1 byte (8 bits)   | Stores small integers         |
+    | short     | 2 bytes (16 bits) | Stores small integers         |
+    | int       | 4 bytes (32 bits) | Stores integers               |
+    | long      | 8 bytes (64 bits) | Stores large integers         |
+    | float     | 4 bytes (32 bits) | Stores decimal values         |
+    | double    | 8 bytes (64 bits) | Stores precise decimal values |
+    | char      | 2 bytes (16 bits) | Stores a single character     |
+    | boolean   | 1 bit             | Stores true or false          |
+
+16. What are Non-Primitive Data Types in Java?
+
+    Non-primitive data types store references to objects.
+
+    Examples:
+
+    * String
+    * Array
+    * Class
+    * Interface
+    * Object
+
+    ```java
+    String name = "Ajeet";
+    ```
+
+⭐ Interview One-Line Answers
+
+* Java is both "compiled and interpreted"
+* JVM provides platform independence
+* Garbage Collector manages heap memory
