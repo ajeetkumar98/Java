@@ -8,7 +8,7 @@ What are the main types of programming languages?
 
 1. Low-Level Language
 
-    Low-level languages are close to **machine hardware**.
+    Low-level languages are close to "machine hardware".
 
     Characteristics:
 
@@ -22,7 +22,7 @@ What are the main types of programming languages?
     * Assembly Language
 
 2. High-Level Language:
-    High-level languages are easy for humans to **read, write, and understand**.
+    High-level languages are easy for humans to "read, write, and understand".
 
     Characteristics:
 
@@ -94,7 +94,7 @@ What are the main types of programming languages?
 
 2. What is a Static Typed Language?
 
-    A static typed language is one in which data types are checked at **compile time**.
+    A static typed language is one in which data types are checked at "compile time".
 
     Example: Java, C, C++
 
@@ -189,7 +189,7 @@ Java is a "high-level, object-oriented, platform-independent" programming langua
 
 10. What is JDK?
 
-    JDK (Java Development Kit) is used to **develop and run Java programs**.
+    JDK (Java Development Kit) is used to "develop and run Java programs".
 
     Includes:
 
