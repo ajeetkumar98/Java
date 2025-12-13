@@ -444,13 +444,13 @@ Java is a "high-level, object-oriented, platform-independent" programming langua
 
     * public → Accessible from anywhere
 
-    static → No object needed to call main method
+    * static → No object needed to call main method
 
-    void → Does not return any value
+    * void → Does not return any value
 
-    main → JVM looks for this method
+    * main → JVM looks for this method
 
-    String[] args → Command-line arguments
+    * String[] args → Command-line arguments
 
 ⭐ Interview One-Liners (Additional)
 
