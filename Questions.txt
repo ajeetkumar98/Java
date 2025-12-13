@@ -280,3 +280,182 @@ Java is a "high-level, object-oriented, platform-independent" programming langua
 * Java is both "compiled and interpreted"
 * JVM provides platform independence
 * Garbage Collector manages heap memory
+
+---------------------------------------------------------------------------------------------------------------------
+
+17. What are Tokens in Java?
+
+    Tokens are the smallest individual units in a Java program.
+
+    Types of Tokens in Java:
+    1. Keywords
+
+    Keywords are reserved words that have predefined meanings in Java.
+
+    Examples:
+
+    * int, class, public, static, void, if, else, for, while
+
+    ❌ Keywords cannot be used as variable names.
+
+    2. Identifiers
+
+    Identifiers are names given to:
+
+    Variables, Methods, Classes
+
+    Rules:
+
+    * Must not start with a digit
+    * No spaces allowed
+    * Cannot be a keyword
+
+    Example:
+
+    int number = 10;
+
+    Here, number is an identifier.
+
+    3. Operators
+
+    Operators are symbols used to perform operations.
+
+    Types of Operators:
+
+    Arithmetic: +, -, *, /, %
+
+    Relational: >, <, >=, <=, ==, !=
+
+    Logical: &&, ||, !
+
+    Assignment: =, +=, -=
+
+    4. Literals
+
+    Literals are fixed values assigned to variables.
+
+    Examples:
+
+    Integer literal: 10
+
+    Floating literal: 3.14
+
+    Character literal: 'A'
+
+    String literal: "Java"
+
+    Boolean literal: true, false
+
+    5. Comments
+
+    Comments are used to explain code and are ignored by the compiler.
+
+    Types:
+
+    Single-line comment: // comment
+
+    Multi-line comment: /* comment */
+
+    Documentation comment: /** comment */
+
+    6. Symbols (Separators)
+
+    Symbols are special characters used in Java syntax.
+
+    Examples:
+
+    ; (semicolon)
+
+    , (comma)
+
+    () (parentheses)
+
+    {} (braces)
+
+    [] (brackets)
+
+18. What is Type Conversion in Java?
+
+    Type conversion means converting one data type into another.
+
+    Types of Type Conversion:
+    1. Implicit Type Conversion (Widening)
+
+    * Done automatically by Java
+
+    * Smaller type → larger type
+
+    Example:
+
+    int a = 10;
+    double b = a;
+    2. Explicit Type Conversion (Narrowing)
+
+    Done manually by the programmer
+
+    Larger type → smaller type
+
+    Example:
+
+    double x = 10.5;
+    int y = (int) x;
+
+19. What are Access Modifiers in Java?
+
+    Access modifiers define the visibility of variables, methods, and classes.
+
+    Types of Access Modifiers:
+    Modifier	Access Level
+    public	Accessible everywhere
+    protected	Same package or subclass
+    default	Same package only
+    private	Same class only
+
+20. Explain System.out.println() line by line
+    System.out.println("Hello World");
+
+    Explanation:
+
+    System → Predefined class in java.lang package
+
+    out → Static object of PrintStream class (standard output)
+
+    println → Method to print output and move to next line
+
+21. Difference Between out, in, and err in Java
+    Stream	Purpose
+    System.out	Standard output (print data)
+    System.in	Standard input (take input)
+    System.err	Error output (print errors)
+
+    Example:
+
+    System.out.println("Normal Output");
+    System.err.println("Error Message");
+
+22. What is the main Method in Java?
+
+    The main method is the entry point of any Java program.
+
+    Syntax:
+
+    public static void main(String[] args)
+    Explanation:
+
+    * public → Accessible from anywhere
+
+    static → No object needed to call main method
+
+    void → Does not return any value
+
+    main → JVM looks for this method
+
+    String[] args → Command-line arguments
+
+⭐ Interview One-Liners (Additional)
+
+Tokens are the smallest units of a Java program
+
+main method is mandatory for program execution
+
+Access modifiers control visibility
